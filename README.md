@@ -95,9 +95,6 @@ function emergencyWithdraw() external onlyOwner;
 ## Development
 This contract includes a `verifyZKProof` function for potential future ZK-SNARK verification integration. Currently, it provides a basic validation example and should be replaced with a real ZK-SNARK verification mechanism.
 
-```solidity
-function verifyZKProof(uint256[8] calldata _proof, uint256[2] calldata _input) external pure returns (bool);
-```
 
 ## License
 
